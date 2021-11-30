@@ -1,3 +1,4 @@
+# Network setup
 Machines can be reached by IP address or hostname.local. This is a prerequisite for cueing games in network-based automation setups.
 Depending on your setup, you may need to configure your machines with fixed IP addresses via DHCP (mac address based IP reservation) or completely static IP addresses.
 
