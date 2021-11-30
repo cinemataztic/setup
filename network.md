@@ -63,4 +63,7 @@ network:  
 ```
 
 ### Multiple Network Interfaces
-If your machine has been configured with multiple network interfaces, these can be configured individually. An example setup would be that the first network physical network interface is configured to access internet for downloading games and assets and the game play itself, while the second physical network interface is configured to connect to the cinemas ethernet-based automation network (this interface would have a static IP address).
+If your machine has been configured with multiple network interfaces, these can be configured individually. 
+In a typical setup this could look like: 
+1. NIC1 is configured to access internet, 
+2. NIC2 is connected to the cinemas ethernet-based automation network (this interface would likely have a static IP address).
