@@ -1,5 +1,6 @@
-This guide describes how to automate CineGame in a Doremi setup.
-It consist of the following 3 steps: 
+# Doremi 
+
+This guide describes how to automate CineGame in a Doremi setup in a 3 step process:
 1. Doremi setup 
 2. Macro setup
 3. Testing
