@@ -26,6 +26,7 @@ The machines run Ubuntu 18, and static IP addresses can be set via the netplan u
 ~: nano /etc/netplan/01-netcfg.yaml
 ```
 3. Add your network configuration to the file. If going for static IP the notation must be CIDR. The example below sets the IP address of the machine to the static 192.168.1.2 in the 255.255.255.0 subnet, corresponding to the CIDR 192.168.1.2/24.
+
 ```
 # /etc/netplan/01-netcfg.yaml 
 # This file describes the network interfaces available on your system 
@@ -41,15 +42,20 @@ network:
       addresses:
       - 192.168.1.2/24
 ```
+
 Save and close the file.
 
+
 4. Try the netplan configuration with the command:
+
 ```
 ~: netplan try
 ```
+
 **netplan try**: Apply configuration and wait for user confirmation; will roll back if network is broken or no confirmation is given.
 
 5. If you saved the configuration in the previous step and wish to roll back to a DHCP configuration, here's an example configuration:
+
 ```
 # This file describes the network interfaces available on your system 
 # For more information, see netplan(5). 
