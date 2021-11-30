@@ -17,7 +17,7 @@ You'll need the following information:
 - Gateway (optional)
 - DNS servers (optional)
 
-The machines run Ubuntu 18, and static IP addresses can be set via the netplan utility: https://netplan.io/
+The machines run Ubuntu 20, and static IP addresses can be set via the netplan utility: https://netplan.io/
 
 ### Examples
 1. Log in to the machine locally using the admin user (cinemataztic). You may need to press ctrl + alt + f2 to open a new terminal session.
