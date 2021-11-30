@@ -1,4 +1,4 @@
-# Setup instructions for Cinemataztic 
+# Getting started
 On this page you'll find instructions for setting up the Cinemataztic hardware in a cinema. 
 
 ## Guides
