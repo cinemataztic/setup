@@ -5,3 +5,4 @@ On this page you'll find instructions for setting up the Cinemataztic hardware i
 - [Network setup](./network.md)
 - [Doremi automation](./doremi.md)
 - [Changing units](./change-unit.md)
+- [Wiki](https://github.com/cinemataztic/setup/wiki)
