@@ -101,6 +101,8 @@ network:
   ethernets:
     eno1:
       dhcp4: true
+      dhcp4-overrides:
+        route-metric: 100
     enp5s0:
       dhcp4: no
       dhcp6: no
